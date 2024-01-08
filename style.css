@@ -519,6 +519,7 @@ nav ul .fa-solid{
 }
 
 .layer h2{
+    font-size: 1.3vw;
     font-weight: 700;
     margin-bottom: 5%;
 }
@@ -531,12 +532,12 @@ nav ul .fa-solid{
     height: 15px;
 }
 .layer p{
-    font-size: .6vw;
+    font-size: 1.1vw;
     padding: 0 10%;
 }
 .layer p span{
     font-style: italic;
-    font-size: .8vw;
+    font-size: 1.35vw;
 }
 
 .work:hover .layer{
