@@ -377,6 +377,7 @@ form .btn{
     padding: 25px 0;
     background: #262626;
     margin-top: 2%;
+    margin-bottom: 600%;
 }
 
 /* ----------CSS-FOR-SMALL-SCREEN----------*/
@@ -494,15 +495,29 @@ nav ul .fa-solid{
 .tab-contents ul li{
     list-style: none;
     margin: 1em 0;
-    font-size: .75rem;
+    font-size: 2.5vw;
 }
 
 .tab-contents ul li span{
     color: black;
-    font-size: .75rem;
-    font-weight: 700;
+    
 }
 
+.course{
+    font-size: .5rem;
+}
+
+.school{
+    font-size: .75rem;
+}
+
+.date{
+    font-size: .6rem;
+}
+
+.company{
+    font-size: .6rem;
+}
 
 /* ----------PROJECT----------*/
 
@@ -555,6 +570,8 @@ nav ul .fa-solid{
     text-align: center;
     font-size: 3vw;
 }
+
+
 
 /* ----------CONTACT----------*/
 
