@@ -527,7 +527,7 @@ nav ul .fa-solid{
 /* ----------PROJECT----------*/
 
 #project h1{
-    
+    font-size: 4.5vw;
 }
 .work img{
     width: 25vw;
@@ -540,23 +540,24 @@ nav ul .fa-solid{
 
 .layer .fa-solid{
     margin-top: 5%;
-    
-    line-height: 15px;
-    width: 15px;
-    height: 15px;
+    font-size: 5px;
+    line-height: 13px;
+    width: 12px;
+    height: 12px;
 }
 
 .layer h2{
-    
+    font-size: 1.3vw;
     margin-bottom: 5%;
 }
 
 .layer p{
-    
+    font-size: 1.1vw;
     padding: 0 10%;
 }
 .layer p span{
-    
+    font-style: italic;
+    font-size: 1.35vw;
 }
 
 .work:hover .layer{
@@ -572,6 +573,7 @@ nav ul .fa-solid{
 .mobile-text{
     display: block;
     text-align: center;
+    font-size: 3vw;
 }
 
 
