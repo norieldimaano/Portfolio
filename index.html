@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/logo-no-bg-2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,300&family=Happy+Monkey&family=Orbitron:wght@800&display=swap" rel="stylesheet">
+    <title>Noriel Dimaano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---------HEADER--------->
+    <div id="header">
+        <div class="container">
+            <div class="header-navigator">
+                <img src="images/logo-no-bg-2.png" alt="logo">
+                <nav>
+                    <ul id="sidemenu">
+                        <li> <a href="#header">Home</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#project">Project</a></li>
+                        <li> <a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+        </div>
+            <div class="header-info">
+                <h1></h1>
+                <p>Hi, I am <span id="name">Noriel</span> <br>Welcome to my website</p>
+                <img src="images/background.png" alt="Background Image">
+            </div>
+    </div>
+    <!---------ABOUT--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <img src="images/secondBackground.png" alt="Second Background">   
+                <div class="about-content">
+                    <h1>About Me</h1>
+                    <p>I graduated at STI College Lipa with a degree Bachelor of Science in Business Administration. 
+                        I completed my online programming course at scrimba. I have exceptional thirst for new knowledge. Coding gives me joy and I am very passionate about programming. I want to develop my passion into a profession.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('work-experience')">Work Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span class="school">College</span></li>
+                            <li>STI College Lipa<span class="course"><br>Bachelor of Science in Business Administration</span</li>
+                            <li><span class="school">Senior High School</span></li>
+                            <li>The Mabini Academy<span class="course"><br>Science, Technology, Engineering, and Mathematics</span></li>
+                            <li><span class="school">Online Programming Course</span></li>
+                            <li><span class="course"><a href="https://scrimba.com" target="_blank">Scrimba</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li>Intermediate skills on using HTML, CSS, Javascript and React</li>
+                            <li>Exceptional desire to learn new skills</li>
+                            <li>Critical thinker and problem solver</li>
+                            <li>Proficient in Microsoft Excel</li>
+                            <li>Computer literate</li>
+                            <li>Flexible</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="work-experience">
+                        <ul> 
+                            <li><strong>Aruze Global Shared Services Philippines</strong></li>
+                            <li><span class="date">January-April (2023)</span></li> 
+                            <li>Software Quality Assurance Tester</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------PROJECT--------->
+    <div id="project">
+        <div class="container">
+            <h1>Projects</h1>
+            <p class="mobile-text">(Tap the pictures for more info)</p>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/todo-list.jpg">
+                    <div class="layer">
+                        <h2>Group Planner</h2>
+                        <p>A mobile application with real-time database that can store information for users to see even in different mobile devices.</p>
+                        <p class="project-text">Please check out my app by clicking the <strong>icon</strong></p>
+                        <a href="https://group-planner-app-noriel.netlify.app" target="_blank"><i class="fa-solid fa-list"></i></a>
+                    </div>
+                </div>
+                    <div class="work">
+                        <img src="images/chrome-extension.png">
+                        <div class="layer">
+                            <h2>Login Authentication</h2>
+                            <p>A login authenticator application with database that can save account registration.</p>
+                            <p class="project-text">Please check out my app by clicking the <strong>icon</strong></p>
+                            <a href="https://login-authentication-noriel.netlify.app" target="_blank"><i class="fa-solid fa-gear"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/chat.png">
+                        <div class="layer">
+                            <h2>Chat Website</h2>
+                            <p>A website where users can interact and chat in real-time.</p>
+                            <p class="project-text">Please check out my website by clicking the <strong>icon</strong></p>
+                            <a href="https://noriel-react-chat-app.netlify.app" target="_blank"><i class="fa-solid fa-gear"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------CONTACT--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div id="contact-leftright">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>norieldimaano@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09457152614</p>
+                    <a id="github-link" href="https://github.com/norieldimaano" target="_blank"><i class="fa-brands fa-square-github"></i>github.com/norieldimaano</a>
+                    <a href="downloads/noriel_dimaano_da_resume.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="spacer">
+            <p> </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
