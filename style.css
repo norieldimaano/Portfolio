@@ -539,7 +539,7 @@ nav ul .fa-solid{
 }
 
 .layer h2{
-    
+    font-size: .8rem;
     margin-bottom: 5%;
 }
 
@@ -551,12 +551,12 @@ nav ul .fa-solid{
     height: 15px;
 }
 .layer p{
-    
+    font-size: .8rem;
     padding: 0 10%;
 }
 .layer p span{
     font-style: italic;
-    
+    font-size: .8rem;
 }
 
 .work:hover .layer{
@@ -572,7 +572,7 @@ nav ul .fa-solid{
 .mobile-text{
     display: block;
     text-align: center;
-    font-size: 3vw;
+    font-size: .8rem;
 }
 
 
