@@ -557,9 +557,9 @@ nav ul .fa-solid{
     font-size: 5px;
     padding: 0 10%;
 }
+
 .layer p span{
     font-size: 5px;
-    font-style: italic;
 }
 
 .work:hover .layer{
@@ -577,7 +577,9 @@ nav ul .fa-solid{
     text-align: center;
     font-size: .6rem;
 }
-
+.project-name{
+    font-size: 100px;
+}
 
 /* ----------CONTACT----------*/
 
