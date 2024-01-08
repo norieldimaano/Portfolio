@@ -549,17 +549,17 @@ nav ul .fa-solid{
 }
 
 .layer h2{
-    font-size: 5px;
+    font-size: 1px;
     margin-bottom: 5%;
 }
 
 .layer p{
-    font-size: 5px;
+    font-size: 1px;
     padding: 0 10%;
 }
 
 .layer p span{
-    font-size: 5px;
+    font-size: 1px;
 }
 
 .work:hover .layer{
@@ -577,9 +577,7 @@ nav ul .fa-solid{
     text-align: center;
     font-size: .6rem;
 }
-.project-name{
-    font-size: 100px;
-}
+
 
 /* ----------CONTACT----------*/
 
