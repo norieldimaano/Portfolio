@@ -547,16 +547,15 @@ nav ul .fa-solid{
 }
 
 .layer h2{
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     margin-bottom: 5%;
 }
 
 .layer p{
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     padding: 0 10%;
 }
 .layer p span{
-    font-style: italic;
     font-size: 1.35vw;
 }
 
@@ -573,7 +572,7 @@ nav ul .fa-solid{
 .mobile-text{
     display: block;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 
