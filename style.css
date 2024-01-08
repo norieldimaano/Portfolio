@@ -224,11 +224,6 @@ nav ul li a:hover::after{
     transition: height 0.5s;
 }
 
-.layer h2{
-    font-weight: 700;
-    margin-bottom: 5%;
-    font-size: 1.6vw;
-}
 .layer a{
     color: #fff;
 }
@@ -244,6 +239,13 @@ nav ul li a:hover::after{
     text-align: center;
     text-decoration: none;
 }
+
+.layer h2{
+    font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 1.6vw;
+}
+
 .layer p{
     font-size: 1.2vw;
     padding: 0 10%;
@@ -538,11 +540,6 @@ nav ul .fa-solid{
     width: 25vw;
 }
 
-.layer h2{
-    font-size: 5px;;
-    margin-bottom: 5%;
-}
-
 .layer .fa-solid{
     margin-top: 5%;
     font-size: 7px;
@@ -550,13 +547,19 @@ nav ul .fa-solid{
     width: 15px;
     height: 15px;
 }
+
+.layer h2{
+    font-size: 5px;
+    margin-bottom: 5%;
+}
+
 .layer p{
-    font-size: 5px;;
+    font-size: 5px;
     padding: 0 10%;
 }
 .layer p span{
+    font-size: 5px;
     font-style: italic;
-    font-size: 5px;;
 }
 
 .work:hover .layer{
@@ -572,9 +575,8 @@ nav ul .fa-solid{
 .mobile-text{
     display: block;
     text-align: center;
-    font-size: .8rem;
+    font-size: .6rem;
 }
-
 
 
 /* ----------CONTACT----------*/
