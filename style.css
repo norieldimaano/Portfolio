@@ -377,6 +377,7 @@ form .btn{
     padding: 25px 0;
     background: #262626;
     margin-top: 2%;
+    margin-bottom: 600%;
 }
 
 /* ----------CSS-FOR-SMALL-SCREEN----------*/
@@ -537,6 +538,10 @@ nav ul .fa-solid{
     width: 25vw;
 }
 
+#list-logo{
+    margin-bottom: -3px;
+}
+
 .layer .fa-solid{
     margin-top: 5%;
     font-size: 5px;
@@ -546,16 +551,20 @@ nav ul .fa-solid{
 }
 
 .layer h2{
-    font-size: 1.6vw;
+    font-size: 2vw;
     margin-bottom: 5%;
 }
 
 .layer p{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding: 0 10%;
 }
 .layer p span{
     font-size: 1.35vw;
+}
+
+#gp{
+    margin-top: 3px;
 }
 
 .work:hover .layer{
