@@ -377,7 +377,6 @@ form .btn{
     padding: 25px 0;
     background: #262626;
     margin-top: 2%;
-    margin-bottom: 600%;
 }
 
 /* ----------CSS-FOR-SMALL-SCREEN----------*/
@@ -538,10 +537,6 @@ nav ul .fa-solid{
     width: 25vw;
 }
 
-#list-logo{
-    margin-bottom: -3px;
-}
-
 .layer .fa-solid{
     margin-top: 5%;
     font-size: 5px;
@@ -561,6 +556,18 @@ nav ul .fa-solid{
 }
 .layer p span{
     font-size: 1.35vw;
+}
+
+#list-logo{
+    margin-bottom: -3px;
+}
+
+#list-gear{
+    margin-bottom: -1px;
+}
+
+#lu {
+    margin-top: 5.5px;
 }
 
 #gp{
