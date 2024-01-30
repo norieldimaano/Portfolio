@@ -199,7 +199,7 @@ nav ul li a:hover::after{
 
 .work img{
     width: 25vw;
-    height: 42vh;
+    height: 48.5vh;
     margin-top: 10%;
     border-radius: 4vw;
     display: block;
@@ -254,7 +254,7 @@ nav ul li a:hover::after{
 }
 
 .work:hover .layer{
-    height: 42vh;
+    height: 48.5vh;
     border: white 4px solid;
 }
 
@@ -287,7 +287,7 @@ nav ul li a:hover::after{
     margin-left: 10%;
 }
 
-.contact-right{
+#contact-right{
     flex-basis: 60%;
     margin-top: -10%;
 }
@@ -339,7 +339,7 @@ nav ul li a:hover::after{
     background: red;
 }
 
-.contact-right form{
+#contact-right form{
     width: 100%;
 }
 
@@ -387,6 +387,10 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
 /* ----------HEADER----------*/
+
+body{
+    margin: -5%;
+}
 
 .header-navigator img{
     width: 20%;
@@ -465,6 +469,10 @@ nav ul .fa-solid{
 }
 
 /* ----------ABOUT----------*/
+
+#about{
+    margin-left: 1.5%;
+}
 
 .row{
     display: flex;
@@ -610,6 +618,10 @@ form .btn{
     margin-left: 4%;
     font-size: 1.8vw;
     font-weight: 700;
+}
+
+#contact-right{
+    margin-left: -5%;
 }
 
 }
