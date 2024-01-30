@@ -286,8 +286,7 @@ nav ul li a:hover::after{
     margin-top: 6%;
     background: #E3DCC2;
     font-weight: bold;
-    transition: background 0.8s;
-    
+    transition: background 0.8s; 
 }
 
 .see-more:hover{
@@ -624,13 +623,16 @@ nav ul .fa-solid{
     font-size: 2.5vw;
 }
 
-
+.see-more{
+    border-radius: 2px; 
+}
 
 /* ----------CONTACT----------*/
 
 .btn{
     padding: 3px 8px;
     font-size: 1.4vw;
+    border-radius: 2px; 
 }
 
 
