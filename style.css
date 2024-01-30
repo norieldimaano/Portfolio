@@ -464,7 +464,7 @@ nav ul li a:hover::after{
 nav .fa-solid{
     display: block;
     font-size: 25px;
-    margin-left: -150%;
+    margin-left: -100%;
     margin-top: 100%;
 }
 
@@ -473,7 +473,7 @@ nav ul{
     position: absolute;
     top: 0;
     left: 0;
-    width: 105vw;
+    width: 100vw;
     height: 36%;
     padding-top: 50px;
     z-index: 2;
