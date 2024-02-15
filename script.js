@@ -33,13 +33,11 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzZaH1wXCPoa1d4pLzt2R
     })
 
 //------------SIDE-MENU-----------//
-
-
-let sidemenu = document.getElementById("sidemenu");
-
-function closemenu(){
-    sidemenu.style.left = "-400px";
-}
-function openmenu(){
-    sidemenu.style.left = "0";
-}
+$(document).ready(function(){
+    $('#x-mark').click(function(){
+        $('#sidemenu').slideUp(400)
+    })
+    $('#bars').click(function(){
+        $('#sidemenu').slideDown(400)
+    })
+})

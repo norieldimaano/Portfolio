@@ -5,6 +5,10 @@
     font-family: 'Alegreya Sans', sans-serif;
 }
 
+*::-webkit-scrollbar{
+    display: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -24,9 +28,9 @@ body{
     padding-right: 5%;
 }
 .header-navigator a img{
-    width: 28%;
-    margin-left: 15%;
-    margin-top: -10%;
+    width: 25%;
+    margin-left: 30%;
+    margin-top: -7%;
 }
 
 nav ul li{
@@ -64,7 +68,6 @@ nav ul li a {
 
 .header-info img{
     width: 50%;
-    
 }
 
 nav ul li a::after{
@@ -457,12 +460,14 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
 
 /* ----------HEADER----------*/
-
+.header-navigator{
+    margin-bottom: 6%;
+}
 
 .header-navigator a img{
-    width: 20%;
-    margin-left: 10%;
-    margin-top: 1.5%;
+    width: 12%;
+    margin-left: 10.5%;
+    margin-top: 5%;
 }
 
 nav ul li a{
@@ -533,6 +538,10 @@ nav ul .fa-solid{
     margin-left: 88%;
     margin-top: -48%;
     color: #fff;
+}
+
+#sidemenu{
+    display: none;
 }
 
 /* ----------ABOUT----------*/
@@ -690,6 +699,10 @@ form .btn{
     margin-left: -5%;
 }
 
+
+.spacer{
+    margin-top: 5%;
+}
 
 /* ----------SECOND-PAGE----------*/
 #grid{

@@ -15,16 +15,18 @@
     <div id="header">
         <div class="container">
             <div class="header-navigator">
-                <a href="index.html"><img src="images/logo-no-bg-2.png" alt="logo" href></a>
+            <div>
+                <a href="index.html"><img src="images/logo-no-bg.png" alt="logo" id="logo-img"></a>
+            </div>
                 <nav>
                     <ul id="sidemenu">
                         <li> <a href="index.html#header">Home</a></li>
                         <li> <a href="index.html#about">About</a></li>
                         <li> <a href="index.html#project">Project</a></li>
                         <li> <a href="index.html#contact">Contact</a></li>
-                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        <i class="fa-solid fa-circle-xmark" id="x-mark"></i>
                     </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    <i class="fa-solid fa-bars" id="bars"></i>
                 </nav>
             </div>
         </div>
@@ -72,6 +74,12 @@
             </div>
         </div>
     </div>
+    <div class="spacer">
+        <p> </p>
+    </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" 
+integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="project.js"></script>
 </html>

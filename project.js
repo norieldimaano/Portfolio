@@ -1,8 +1,8 @@
-let sidemenu = document.getElementById("sidemenu");
-
-function closemenu(){
-    sidemenu.style.left = "-400px";
-}
-function openmenu(){
-    sidemenu.style.left = "0";
-}
+$(document).ready(function(){
+    $('#x-mark').click(function(){
+        $('#sidemenu').slideUp(200)
+    })
+    $('#bars').click(function(){
+        $('#sidemenu').slideDown(200)
+    })
+})
