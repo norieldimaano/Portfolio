@@ -406,6 +406,12 @@ form .btn{
 }
 
 /* ----------SECOND-PAGE----------*/
+#header-project{
+    text-align: center;
+    font-size: 2.5vw;
+    padding-top: 3%;
+}
+
 #grid{
     max-width: 90%;
     background-color: #FFEEDB;
@@ -718,5 +724,10 @@ form .btn{
 
 #grid img:hover{
     transform: none;
+}
+
+#header-project{
+    font-size: 5vw;
+    padding-bottom: 3%;
 }
 }
