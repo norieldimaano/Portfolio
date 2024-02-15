@@ -453,10 +453,10 @@ nav .fa-solid{
 /* ----------HEADER----------*/
 
 
-.header-navigator img{
+.header-navigator a img{
     width: 20%;
-    margin-top: 2%;
-    margin-left: 7%;
+    margin-left: 10%;
+    margin-top: 1.5%;
 }
 
 nav ul li a{
@@ -684,4 +684,39 @@ form .btn{
     margin-left: -5%;
 }
 
+
+/* ----------SECOND-PAGE----------*/
+#grid{
+    max-width: 90%;
+    background-color: #FFEEDB;
+    margin: 1% auto;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 20px;
+    padding: 5em;
+}
+
+#grid a{
+    text-decoration: none;
+    color: black;
+}
+
+#grid h1{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+#grid img{
+    border-radius: 1em;
+    max-width: 50vw;
+    transition: transform .2s;
+    margin-bottom: 2%;
+}
+
+#grid img:hover{
+    transform: none;
+}
 }
