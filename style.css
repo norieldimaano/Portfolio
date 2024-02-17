@@ -438,6 +438,12 @@ form .btn{
     font-weight: 700;
 }
 
+#grid h3{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
 #grid img{
     border-radius: 1em;
     max-width: 15vw;
@@ -726,6 +732,10 @@ form .btn{
     text-align: center;
     font-size: 5vw;
     font-weight: 700;
+}
+
+#grid h3{
+    font-size: 4vw;
 }
 
 #grid img{
